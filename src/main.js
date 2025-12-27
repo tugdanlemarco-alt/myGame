@@ -16,7 +16,7 @@ const cam = 230;
         const player = make_player(230, 230);
         // calling the function that makes the player move.
         player.setControls();
-        make_map("map" ,"./public/sprites/tiled/json/living room.json");
+        make_map("map" ,"./sprites/tiled/json/living room.json");
 
 const door = make_door();
 const dialog = make_dialog();
